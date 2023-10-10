@@ -20,7 +20,7 @@ Feature: Cashier function that adds products to a cart and display the total pri
         |3         |SR1  |Strawberries | £5.00 |
         |5         |CF1  |Coffee       |£11.23 |
 
-    Scenario Outline: As a client user I want to see that the special "ReducedPriceRule" rule is applied to my order
+    Scenario Outline: As a client user I want to see that the special "ReducedPriceRule" rule is applied to my order New 2222222222
       Given a client user on the dashboard page of the application
       When client adds to cart a number of "<M>" units of "<product>", more or equal than "<N>" units
       Then the client sees in his cart that instead of the original price "<original_price>" per unit of "<product>" he has to pay a new price "<X>" per unit
